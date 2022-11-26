@@ -1,12 +1,12 @@
 # React Text Utils App
 <p>This project is created using React js. Its aim to provide basic functionality to manipulate user text according to the need. This app provide dark and light theme. Multiple routes is also provided for smooth navigation.<p/>
 
-
-
-```
-### `Setup and Run`
+## `Setup and Run`
 
 To get a local copy of the code, clone it using git:
+
+```
+
 
 git clone https://github.com/umermemon4648/react-textUtils.git
 cd react-textUtils-master
