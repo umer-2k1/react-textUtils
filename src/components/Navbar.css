@@ -1,0 +1,58 @@
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 100px;
+    height: 40px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+    /* display: flex; */
+    margin-left: 30rem;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 35px;
+    height: 30px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: orange;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 40px;
+}
+
+/* changing mode name along with icon  */
+ 
+/* #mode-name{
+    color: white;
+    justify-content: flex-end;
+} */
+
+/* 
+#mode-icon{
+    color: white;
+    display: flex;
+    
+}  */
